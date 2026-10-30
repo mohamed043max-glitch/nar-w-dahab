@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ar-EG" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0a08">
+  <meta name="description" content="نار ودهب — مطعم شرقي مصري فاخر، نكهة أصيلة تُولد على نار الفحم، وضيافة مصرية تليق بكل لحظة.">
+  <meta property="og:title" content="نار ودهب | ضيافة على أصولها">
+  <meta property="og:description" content="تجربة شرقية من قلب القاهرة، تُطهى على مهل وتُقدّم بكرم.">
+  <title>نار ودهب | ضيافة على أصولها</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preload" href="assets/fonts/noto-naskh-arabic.woff2" as="font" type="font/woff2" crossorigin>
+  <script defer src="js/app.js"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">تخطَّ إلى المحتوى</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="نار ودهب — الرئيسية">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="27" stroke="currentColor" stroke-width="1.2" opacity=".7"/>
+            <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.5 3.8" opacity=".65"/>
+            <path d="M32 12c2.7 6.7 10.5 9.9 10.5 19.5A10.5 10.5 0 1 1 21.3 26c.8 4 3.7 5.5 3.7 5.5-.5-6.8 3.9-11.8 7-19.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M32 26.5c1.3 3.4 4.4 5.3 4.4 8.7a4.4 4.4 0 1 1-8.8 0c0-2.7 1.4-5.5 4.4-8.7Z" fill="currentColor" opacity=".88"/>
+            <path d="M8 32h7M49 32h7M32 8v3M32 53v3" stroke="currentColor" stroke-width="1" opacity=".8"/>
+          </svg>
+        </span>
+        <span class="brand-copy"><strong>نار <i>و</i> دهب</strong><small>ضيافة على أصولها</small></span>
+      </a>
+
+      <nav class="site-nav" id="main-navigation" aria-label="التنقل الرئيسي">
+        <a class="nav-link is-active" aria-current="page" href="index.html">الرئيسية</a>
+        <a class="nav-link" href="menu.html">القائمة</a>
+        <a class="nav-link" href="about.html">عن المطعم</a>
+        <a class="nav-link" href="reservation.html">احجز طاولة</a>
+        <a class="nav-link" href="contact.html">تواصل معنا</a>
+        <a class="nav-link" href="my-account.html">حجوزاتي وطلباتي</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="cart-header-link" href="cart.html" aria-label="فتح السلة">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h2l2.1 10.2a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 1.9-1.4L21 9H7"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+          <span class="cart-count" data-cart-count>٠</span>
+        </a>
+        <button class="theme-toggle" type="button" aria-label="التبديل إلى الوضع النهاري" title="التبديل إلى الوضع النهاري">
+          <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.7"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.6 8.6 0 0 1 8.9 3.8 8.9 8.9 0 1 0 20.2 15.1Z"/></svg>
+          <span class="theme-label">الوضع النهاري</span>
+        </button>
+        <a class="btn btn--gold btn--small header-book" href="reservation.html"><span>احجز طاولة</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5"/></svg></a>
+        <button class="menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="main-navigation"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <picture class="hero-picture">
+          <source media="(min-width: 1101px)" srcset="assets/images/hero-charcoal-desktop.webp" type="image/webp">
+          <img class="hero-photo parallax-asset" src="assets/images/hero-charcoal.webp" alt="" fetchpriority="high">
+        </picture>
+        <div class="hero-shade"></div>
+        <div class="hero-embers"></div>
+      </div>
+      <div class="hero-shell container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> مطعم شرقي مصري فاخر <span class="eyebrow-line"></span></p>
+          <h1 id="hero-title">حين تتوهّج النار…<br><em>تُولد الحكاية.</em></h1>
+          <p class="hero-lede">نكهةٌ أصيلة تُطهى على مهل، وكرمٌ مصري يفتح لك القلب قبل المائدة.</p>
+          <div class="hero-actions">
+            <a class="btn btn--ghost hero-book-btn" href="reservation.html"><span>احجز طاولة</span></a>
+            <a class="btn btn--gold hero-menu-btn" href="#home-menu"><span>اطلب الآن</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="tiny-flame" aria-hidden="true">✦</i> من الفحم إلى المائدة</span>
+            <span class="hero-meta-divider"></span>
+            <span>القاهرة · منذ ٢٠١٢</span>
+          </div>
+        </div>
+        <div class="hero-seal reveal" aria-label="تجربة ذهبية">
+          <span class="seal-orbit"></span>
+          <span class="seal-top">من قلب القاهرة</span>
+          <span class="seal-mark" aria-hidden="true">ن</span>
+          <span class="seal-bottom">بنكهة لا تُنسى</span>
+        </div>
+        <a class="hero-scroll" href="#welcome"><span>اكتشف الحكاية</span><i aria-hidden="true"></i></a>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>01</span><i></i><span>07</span></div>
+    </section>
+
+    <div class="marquee-strip" aria-label="نكهة أصيلة، نار حقيقية، ضيافة مصرية، تجربة ذهبية">
+      <div class="marquee-track">
+        <span>نكهة أصيلة</span><b>✦</b><span>نار حقيقية</span><b>✦</b><span>ضيافة مصرية</span><b>✦</b><span>تجربة ذهبية</span><b>✦</b><span>نكهة أصيلة</span><b>✦</b><span>نار حقيقية</span><b>✦</b><span>ضيافة مصرية</span><b>✦</b><span>تجربة ذهبية</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="stats-section section-pad" id="welcome" aria-label="نار ودهب بالأرقام">
+      <div class="container stats-grid">
+        <div class="stat-item reveal"><span class="stat-number" data-count="28" data-suffix="+">٠</span><span class="stat-label">طبقًا من روح المطبخ المصري</span></div>
+        <div class="stat-item reveal"><span class="stat-number" data-count="14" data-suffix="">٠</span><span class="stat-label">عامًا من الشغف بالنكهة</span></div>
+        <div class="stat-item reveal"><span class="stat-number" data-count="18000" data-suffix="+">٠</span><span class="stat-label">ضيفٌ عاد إلى مائدتنا</span></div>
+        <div class="stat-item reveal"><span class="stat-number" data-count="4" data-suffix="">٠</span><span class="stat-label">زوايا للكرم في القاهرة</span></div>
+      </div>
+    </section>
+
+    <section class="home-menu-section section-pad" id="home-menu" aria-labelledby="home-menu-title">
+      <div class="container">
+        <div class="section-heading-row reveal">
+          <div>
+            <p class="section-kicker">من مطبخنا <span>—</span> تُحضّر على الطلب</p>
+            <h2 class="section-title" id="home-menu-title">قائمة الطعام</h2>
+            <p class="home-menu-intro">خمسة وعشرون طبقًا من نكهات مصرية أصيلة، تُحضّر طازجة وتصل إلى سلتك مباشرة.</p>
+          </div>
+          <a class="text-link section-heading-link" href="menu.html">افتح صفحة القائمة <span aria-hidden="true">←</span></a>
+        </div>
+        <div class="menu-toolbar reveal">
+          <div class="menu-toolbar-copy"><span class="toolbar-mark" aria-hidden="true">✦</span><span>تصفّح حسب التصنيف</span></div>
+          <div class="filter-list" role="group" aria-label="فلترة قائمة الطعام">
+            <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">كل الأطباق <small>٢٥</small></button>
+            <button class="filter-btn" type="button" data-filter="grills" aria-pressed="false">مشويات <small>٥</small></button>
+            <button class="filter-btn" type="button" data-filter="mains" aria-pressed="false">أطباق رئيسية <small>٥</small></button>
+            <button class="filter-btn" type="button" data-filter="starters" aria-pressed="false">مقبلات <small>٥</small></button>
+            <button class="filter-btn" type="button" data-filter="desserts" aria-pressed="false">حلويات <small>٥</small></button>
+            <button class="filter-btn" type="button" data-filter="drinks" aria-pressed="false">مشروبات <small>٥</small></button>
+          </div>
+        </div>
+        <div class="menu-grid" id="home-menu-grid">
+          <article class="menu-card reveal" data-category="grills" data-product-id="kebab-fire" data-price="345">
+            <div class="menu-card-image"><img src="assets/images/home-menu/kebab-fire.webp" alt="أسياخ كباب مشوية مع الأرز والسلطة على طبق تقديم" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشويات على الفحم</span><span class="dish-number">٠١</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">كباب الفحم</h3><span class="dish-price">٣٤٥ <small>ج.م</small></span></div><p>قطع لحم متبّلة بتوابل الدار، تُشوى ببطء وتُقدّم مع الطحينة والخبز البلدي.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> اختيار الشيف</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف كباب الفحم إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="grills" data-product-id="lamb-ribs" data-price="420">
+            <div class="menu-card-image"><img src="assets/images/home-menu/lamb-ribs.webp" alt="ريش لحم مشوية مع صلصة طماطم على طبق أبيض" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشويات على الفحم</span><span class="dish-number">٠٢</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">ريش ضاني مشوية</h3><span class="dish-price">٤٢٠ <small>ج.م</small></span></div><p>ريش ضأن طرية بتتبيلة عطرية، مع خضار موسمي ولمسة ليمون مشوي.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> نار هادئة</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف ريش ضاني مشوية إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains" data-product-id="cairo-koshari" data-price="135">
+            <div class="menu-card-image"><img src="assets/images/home-menu/cairo-koshari.webp" alt="طبق كشري مصري بطبقاته من الأرز والعدس والمكرونة والبصل المحمّر" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">أطباق رئيسية</span><span class="dish-number">٠٣</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">كشري القاهرة</h3><span class="dish-price">١٣٥ <small>ج.م</small></span></div><p>طبقات من الأرز والعدس والمكرونة، صلصة بيتية ودقّة تُحضّر كل يوم.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> وصفة الدار</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف كشري القاهرة إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains" data-product-id="stuffed-pigeon" data-price="325">
+            <div class="menu-card-image"><img src="assets/images/home-menu/stuffed-pigeon.webp" alt="حمام مصري محشي بالأرز يقدم ساخنًا على طبق مع الأعشاب" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">أطباق رئيسية</span><span class="dish-number">٠٤</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">حمام محشي</h3><span class="dish-price">٣٢٥ <small>ج.م</small></span></div><p>حمام بلدي محشو بالأرز المتبّل، محمّر حتى يكتسب قشرةً ذهبية.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> على الطريقة المصرية</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف حمام محشي إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters" data-product-id="hummus" data-price="95">
+            <div class="menu-card-image"><img src="assets/images/home-menu/hummus.webp" alt="طبق حمص ناعم مع زيت الزيتون وحبات الحمص والخبز الطازج" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مقبلات</span><span class="dish-number">٠٥</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">حمص بالطحينة</h3><span class="dish-price">٩٥ <small>ج.م</small></span></div><p>حمص ناعم، طحينة سمسم، زيت زيتون بكر ورشة سماق مع خبز طازج.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> يُحضّر يوميًا</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف حمص بالطحينة إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters" data-product-id="mezze" data-price="185">
+            <div class="menu-card-image"><img src="assets/images/home-menu/mezze.webp" alt="تشكيلة مقبلات شرق أوسطية تضم حمصًا وفلافل وأوراق عنب وزيتون" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مقبلات</span><span class="dish-number">٠٦</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">سفرة المازات</h3><span class="dish-price">١٨٥ <small>ج.م</small></span></div><p>تشكيلة صغيرة من الزيتون والجبن والغموسات، مثالية لتبدأ بها لَمّتك.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> للمشاركة</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف سفرة المازات إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts" data-product-id="oriental-sweets" data-price="165">
+            <div class="menu-card-image"><img src="assets/images/home-menu/oriental-sweets.webp" alt="بقلاوة شرقية محشوة بالمكسرات ومزينة بالفستق والقشطة" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">حلويات شرقية</span><span class="dish-number">٠٧</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">صحن شرقيّات</h3><span class="dish-price">١٦٥ <small>ج.م</small></span></div><p>بقلاوة وكنافة وقطع من حلوى الدار، تُقدّم مع رشة فستق وقطر خفيف.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> خاتمة ذهبية</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف صحن شرقيّات إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts" data-product-id="kunafa" data-price="145">
+            <div class="menu-card-image"><img src="assets/images/home-menu/kunafa.webp" alt="قطعة كنافة ذهبية بالفستق على طبق أسود" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">حلويات شرقية</span><span class="dish-number">٠٨</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">كنافة بالقشطة</h3><span class="dish-price">١٤٥ <small>ج.م</small></span></div><p>شعيرية مقرمشة، قشطة طازجة، قطر دافئ وفستق حلبي عند التقديم.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> تُقدّم دافئة</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف كنافة بالقشطة إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks" data-product-id="tea" data-price="45">
+            <div class="menu-card-image"><img src="assets/images/home-menu/tea.webp" alt="كوب شاي عربي بالنعناع في كأس زجاجي تقليدي" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشروبات</span><span class="dish-number">٠٩</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">شاي على الجمر</h3><span class="dish-price">٤٥ <small>ج.م</small></span></div><p>شاي مصري ثقيل، يُقدّم في كأس زجاجي مع اختيار النعناع أو الحبق.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> على مزاجك</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف شاي على الجمر إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks" data-product-id="turkish-coffee" data-price="60">
+            <div class="menu-card-image"><img src="assets/images/home-menu/turkish-coffee.webp" alt="فنجان قهوة تركية تقليدية مع ركوة نحاسية وقطع حلوى" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشروبات</span><span class="dish-number">١٠</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">قهوة تركية</h3><span class="dish-price">٦٠ <small>ج.م</small></span></div><p>قهوة تُطحن طازجة وتُحضّر على مهل، سادة أو على الريحة.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> تحضير طازج</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف قهوة تركية إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="grills" data-product-id="chicken-tawook" data-price="285">
+            <div class="menu-card-image"><img src="assets/images/home-menu/chicken-tawook.webp" alt="مشويات شرق أوسطية تقدم مع الخبز والصلصات والخضروات" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشويات على الفحم</span><span class="dish-number">١١</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">طاووق الدار</h3><span class="dish-price">٢٨٥ <small>ج.م</small></span></div><p>قطع دجاج متبّلة بالليمون والثوم، تُشوى على الفحم وتُقدّم مع سلطة طازجة.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> تتبيلة الدار</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف طاووق الدار إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="grills" data-product-id="kofta-grill" data-price="295">
+            <div class="menu-card-image"><img src="assets/images/home-menu/kofta-grill.webp" alt="كفتة شرق أوسطية مشوية مع الفلفل والطماطم" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشويات على الفحم</span><span class="dish-number">١٢</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">كفتة مشوية</h3><span class="dish-price">٢٩٥ <small>ج.م</small></span></div><p>كفتة لحم طرية بتتبيلة الدار، مشوية حتى تكتسب نكهة الجمر.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> مذاق أصيل</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف كفتة مشوية إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="grills" data-product-id="grilled-shrimp" data-price="385">
+            <div class="menu-card-image"><img src="assets/images/home-menu/grilled-shrimp.webp" alt="أسياخ جمبري مشوي على طبق داكن مع الليمون والأعشاب" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشويات على الفحم</span><span class="dish-number">١٣</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">جمبري مشوي</h3><span class="dish-price">٣٨٥ <small>ج.م</small></span></div><p>جمبري متبّل بالأعشاب والليمون، يُشوى ويُقدّم مع صوص خفيف.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> لمسة بحرية</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف جمبري مشوي إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains" data-product-id="molokhia-rice" data-price="215">
+            <div class="menu-card-image"><img src="assets/images/home-menu/molokhia-rice.webp" alt="ملوخية مصرية مع لحم مطهو وأرز في طبق تقليدي" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">أطباق رئيسية</span><span class="dish-number">١٤</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">ملوخية بالأرز</h3><span class="dish-price">٢١٥ <small>ج.م</small></span></div><p>ملوخية خضراء بالثوم والكزبرة، تُقدّم مع أرز بالشعرية وقطع الدجاج.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> وصفة مصرية</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف ملوخية بالأرز إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains" data-product-id="mahshi-mix" data-price="195">
+            <div class="menu-card-image"><img src="assets/images/home-menu/mahshi-mix.webp" alt="فلفل حلو محشو بالأرز واللحم في صلصة الطماطم" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">أطباق رئيسية</span><span class="dish-number">١٥</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">محشي مشكّل</h3><span class="dish-price">١٩٥ <small>ج.م</small></span></div><p>خضروات موسمية محشوة بالأرز والخضرة، مطهوة على الطريقة المصرية.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> من مطبخنا</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف محشي مشكّل إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="mains" data-product-id="lamb-tagine" data-price="390">
+            <div class="menu-card-image"><img src="assets/images/home-menu/lamb-tagine.webp" alt="طاجن ساق ضأن مغربي مطهو مع التوابل في طبق خزفي" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">أطباق رئيسية</span><span class="dish-number">١٦</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">طاجن ساق الضأن</h3><span class="dish-price">٣٩٠ <small>ج.م</small></span></div><p>ساق ضأن مطهوة ببطء مع التوابل والحمص حتى تصبح طرية وغنية بالنكهة.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> طهي على مهل</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف طاجن ساق الضأن إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters" data-product-id="baba-ghanoush" data-price="105">
+            <div class="menu-card-image"><img src="assets/images/home-menu/baba-ghanoush.webp" alt="طبق مقبلات مع بابا غنوج وخضروات طازجة وخبز" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مقبلات</span><span class="dish-number">١٧</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">بابا غنوج</h3><span class="dish-price">١٠٥ <small>ج.م</small></span></div><p>باذنجان مشوي على اللهب مع الطحينة والليمون وزيت الزيتون.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> مدخّن وطازج</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف بابا غنوج إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters" data-product-id="warak-enab" data-price="125">
+            <div class="menu-card-image"><img src="assets/images/home-menu/warak-enab.webp" alt="أوراق عنب محشوة بالأرز مع صلصة اللبن والليمون" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مقبلات</span><span class="dish-number">١٨</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">ورق عنب بالليمون</h3><span class="dish-price">١٢٥ <small>ج.م</small></span></div><p>ورق عنب محشو بالأرز والأعشاب، يُقدّم باردًا مع شرائح الليمون.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> لقمة خفيفة</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف ورق عنب بالليمون إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts" data-product-id="umm-ali" data-price="110">
+            <div class="menu-card-image"><img src="assets/images/home-menu/umm-ali.webp" alt="طبق أم علي مصري تقليدي مزين بالمكسرات" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">حلويات شرقية</span><span class="dish-number">١٩</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">أم علي</h3><span class="dish-price">١١٠ <small>ج.م</small></span></div><p>رقائق عجين مخبوزة مع الحليب والمكسرات والزبيب، تُقدّم دافئة.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> تُخبز طازجة</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف أم علي إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts" data-product-id="basbousa" data-price="85">
+            <div class="menu-card-image"><img src="assets/images/home-menu/basbousa.webp" alt="بسبوسة مصرية طرية بالزبادي والقطر تقدم في طبق" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">حلويات شرقية</span><span class="dish-number">٢٠</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">بسبوسة بالقشطة</h3><span class="dish-price">٨٥ <small>ج.م</small></span></div><p>سميد طريّ مشرب بالقطر، مع طبقة قشطة ولمسة لوز محمّص.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> من الفرن</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف بسبوسة بالقشطة إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks" data-product-id="karkade" data-price="55">
+            <div class="menu-card-image"><img src="assets/images/home-menu/karkade.webp" alt="كأس كركديه مصري أحمر مع بتلات الكركديه المجففة" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشروبات</span><span class="dish-number">٢١</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">كركديه مثلّج</h3><span class="dish-price">٥٥ <small>ج.م</small></span></div><p>كركديه مصري بلونه الياقوتي، يُقدّم باردًا مع لمسة ليمون.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> بارد ومنعش</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف كركديه مثلّج إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks" data-product-id="tamarind-cold" data-price="55">
+            <div class="menu-card-image"><img src="assets/images/home-menu/tamarind-cold.webp" alt="كوب عصير تمر هندي مصري بارد بلونه البني الغني" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشروبات</span><span class="dish-number">٢٢</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">تمر هندي</h3><span class="dish-price">٥٥ <small>ج.م</small></span></div><p>تمر هندي معتّق بطعمه الحلو والحامض، يُقدّم باردًا ومنعشًا.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> منعش طبيعيًا</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف تمر هندي إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="starters" data-product-id="taameya" data-price="85">
+            <div class="menu-card-image"><img src="assets/images/home-menu/taameya.webp" alt="طعمية مصرية خضراء مقرمشة مع خبز بلدي وأوراق طازجة" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مقبلات</span><span class="dish-number">٢٣</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">طعمية بلدي</h3><span class="dish-price">٨٥ <small>ج.م</small></span></div><p>أقراص فول أخضر مقرمشة من الخارج وطرية من الداخل، مع طحينة وخبز بلدي.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> فول أخضر طازج</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف طعمية بلدي إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="desserts" data-product-id="roz-bel-laban" data-price="75">
+            <div class="menu-card-image"><img src="assets/images/home-menu/roz-bel-laban.webp" alt="أرز بالحليب مزين بالفستق والجوز والقرفة والعسل" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">حلويات شرقية</span><span class="dish-number">٢٤</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">أرز باللبن</h3><span class="dish-price">٧٥ <small>ج.م</small></span></div><p>أرز بالحليب مطهو على مهل، بوجه كريمي ورشة قرفة أو مكسرات.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> يُقدّم باردًا</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف أرز باللبن إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+
+          <article class="menu-card reveal" data-category="drinks" data-product-id="sobia" data-price="55">
+            <div class="menu-card-image"><img src="assets/images/home-menu/sobia.webp" alt="كأسان من السوبيا المصرية البيضاء مع جوز الهند الطازج" width="800" height="592" loading="lazy" decoding="async"><span class="dish-category">مشروبات</span><span class="dish-number">٢٥</span></div>
+            <div class="menu-card-body"><div class="dish-title-row"><h3 class="dish-title">سوبيا باردة</h3><span class="dish-price">٥٥ <small>ج.م</small></span></div><p>مشروب مصري كريمي من الأرز وجوز الهند، يُقدّم باردًا ومنعشًا.</p><div class="dish-foot"><span class="dish-note"><i>✦</i> مشروب مصري أصيل</span><button class="add-to-cart-btn" type="button" data-add-to-cart aria-label="أضف سوبيا باردة إلى السلة"><span>أضف إلى السلة</span><b aria-hidden="true">+</b></button></div></div>
+          </article>
+        </div>
+        <p class="menu-empty" hidden>لا توجد أطباق في هذا القسم الآن.</p>
+        <div class="home-menu-more"><a class="btn btn--gold" href="menu.html"><span>اكتشف القائمة كاملة</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5"/></svg></a></div>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-visual reveal parallax-photo">
+          <div class="photo-frame">
+            <img class="parallax-asset" src="assets/images/home-interior.webp" alt="أجواء دافئة في مطعم نار ودهب، حيث تلتقي التفاصيل الشرقية بالضيافة" loading="lazy">
+            <span class="frame-corner frame-corner--tl"></span><span class="frame-corner frame-corner--br"></span>
+          </div>
+          <div class="story-stamp"><span>حكاية</span><b>نار</b><i>و</i><b>دهب</b><span class="stamp-star">✦</span></div>
+          <div class="story-caption"><span class="caption-dot"></span> مائدة تجمع الحكايات</div>
+        </div>
+        <div class="story-copy reveal">
+          <p class="section-kicker">حكايتنا <span>—</span> من شرارة إلى مائدة</p>
+          <h2 class="section-title" id="story-title">نُشعل النار…<br><em>ونترك للنكهة أن تحكي.</em></h2>
+          <p class="body-copy">بدأت الحكاية من شغفٍ بسيط: أن نعيد للمائدة المصرية دفئها الأول. اخترنا أجود المكونات، وأبقينا النار هادئة، وتركنا للوقت سرّه؛ فكل طبق عندنا يحمل شيئًا من البيت، وشيئًا من دهشة اللقاء الأول.</p>
+          <p class="body-copy body-copy--subtle">في «نار ودهب»، لا نُقدّم الطعام وحده؛ نُقدّم لحظةً تُشبه كرم البيوت المصرية، من أول رائحة الفحم حتى آخر رشفة شاي.</p>
+          <a class="text-link" href="about.html">اقرأ حكايتنا كاملة <span aria-hidden="true">←</span></a>
+          <div class="story-signature"><span class="signature-line"></span><span>أهلًا بك… المائدة مائدتك</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signature-section section-pad" aria-labelledby="signature-title">
+      <div class="container">
+        <div class="section-heading-row reveal">
+          <div>
+            <p class="section-kicker">من قلب مطبخنا <span>—</span> اختيارات الشيف</p>
+            <h2 class="section-title" id="signature-title">أطباقٌ لها <em>وهجها الخاص.</em></h2>
+          </div>
+          <a class="text-link section-heading-link" href="menu.html">تصفّح القائمة كاملة <span aria-hidden="true">←</span></a>
+        </div>
+        <div class="signature-grid">
+          <article class="signature-card reveal">
+            <a class="signature-image" href="menu.html" aria-label="اكتشف طبق المشوي الملكي">
+              <img src="assets/images/home-mixed-grill.webp" alt="أسياخ لحم مشوية على الفحم حتى اكتسبت لونًا ذهبيًا" loading="lazy">
+              <span class="image-index">01</span><span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="signature-card-meta"><span>على الجمر</span><span class="gold-dash"></span><span>٣٢٠ ج.م</span></div>
+            <h3>المشوي الملكي</h3>
+            <p>تشكيلة من أجود القطع، تتبيلة بيتية، ولمسة دخان لا تُخطئها الحواس.</p>
+          </article>
+          <article class="signature-card signature-card--raised reveal">
+            <a class="signature-image" href="menu.html" aria-label="اكتشف طبق كفتة الحاتي">
+              <picture>
+                <source media="(min-width: 1101px)" srcset="assets/images/home-kofta-desktop.webp" type="image/webp">
+                <img src="assets/images/home-kofta.webp" alt="كفتة مشوية تقدم مع الخبز الطازج" loading="lazy">
+              </picture>
+              <span class="image-index">02</span><span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="signature-card-meta"><span>وصفة الدار</span><span class="gold-dash"></span><span>٢٨٥ ج.م</span></div>
+            <h3>كفتة الحاتي</h3>
+            <p>لحمٌ طريّ، بهارات متوازنة، وتحميرٌ يوقظ الذاكرة من أول لقمة.</p>
+          </article>
+          <article class="signature-card reveal">
+            <a class="signature-image" href="menu.html" aria-label="اكتشف كنافة نار ودهب">
+              <img src="assets/images/home-sweet.webp" alt="كنافة شرقية ذهبية بالفستق على طبق أبيض" loading="lazy">
+              <span class="image-index">03</span><span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="signature-card-meta"><span>خاتمة حلوة</span><span class="gold-dash"></span><span>١٤٥ ج.م</span></div>
+            <h3>كنافة نار ودهب</h3>
+            <p>خيوط ذهبية، قشطة طازجة، وقطرٌ يُسكب لحظة التقديم.</p>
+          </article>
+        </div>
+        <div class="ornament-divider"><span></span><i>✦</i><span></span></div>
+      </div>
+    </section>
+
+    <section class="testimonial-section section-pad" aria-labelledby="testimonial-title">
+      <div class="testimonial-glow" aria-hidden="true"></div>
+      <div class="container testimonial-layout">
+        <div class="testimonial-intro reveal">
+          <p class="section-kicker">قالوا عن مائدتنا <span>—</span> ضيوفنا أولًا</p>
+          <h2 class="section-title" id="testimonial-title">أجمل ما في الحكاية…<br><em>أن تُروى منكم.</em></h2>
+          <p class="body-copy">كل زيارة تترك لنا حكاية جديدة. وهذه بعض الكلمات التي نعتز بها.</p>
+          <div class="slider-controls">
+            <button class="slider-btn" type="button" data-review-prev aria-label="الرأي السابق"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M15 10H4m5 5-5-5 5-5"/></svg></button>
+            <span class="slider-count"><b data-review-current>01</b><i></i><span>03</span></span>
+            <button class="slider-btn" type="button" data-review-next aria-label="الرأي التالي"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h11m-5-5 5 5-5 5"/></svg></button>
+          </div>
+        </div>
+        <div class="testimonial-card reveal" aria-live="polite" aria-atomic="true">
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <div class="review-stars" aria-label="خمس نجوم">★★★★★</div>
+          <blockquote data-review-quote>«من أول رائحة الفحم حسّيت إنّي في بيت مصري أصيل. الأكل ممتاز، والخدمة فيها كرم حقيقي.»</blockquote>
+          <div class="review-author"><span class="author-monogram" data-review-initial>م</span><span><b data-review-name>مريم عادل</b><small data-review-location>القاهرة · زيارة عائلية</small></span><span class="review-spark" aria-hidden="true">✦</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reserve-band section-pad" aria-labelledby="reserve-title">
+      <div class="container reserve-band-inner reveal">
+        <div class="reserve-ornament" aria-hidden="true"><span></span><b>ن</b><span></span></div>
+        <div class="reserve-band-copy">
+          <p class="section-kicker">المائدة جاهزة حين تصل</p>
+          <h2 class="section-title" id="reserve-title">اترك لنا مقعدًا… <em>والباقي علينا.</em></h2>
+          <p>خطّط لليلتك القادمة، ودعنا نُعدّ لك استقبالًا يليق بك.</p>
+        </div>
+        <a class="btn btn--gold" href="reservation.html"><span>احجز طاولتك الآن</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand-col">
+        <a class="brand brand--footer" href="index.html" aria-label="نار ودهب — الرئيسية">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="27" stroke="currentColor" stroke-width="1.2" opacity=".7"/><circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.5 3.8" opacity=".65"/><path d="M32 12c2.7 6.7 10.5 9.9 10.5 19.5A10.5 10.5 0 1 1 21.3 26c.8 4 3.7 5.5 3.7 5.5-.5-6.8 3.9-11.8 7-19.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 26.5c1.3 3.4 4.4 5.3 4.4 8.7a4.4 4.4 0 1 1-8.8 0c0-2.7 1.4-5.5 4.4-8.7Z" fill="currentColor" opacity=".88"/></svg></span>
+          <span class="brand-copy"><strong>نار <i>و</i> دهب</strong><small>ضيافة على أصولها</small></span>
+        </a>
+        <p>حكاية نكهة مصرية تُروى على نارٍ هادئة، وتُقدّم بقلبٍ مفتوح.</p>
+        <div class="social-links" aria-label="حسابات التواصل">
+          <a href="#site-footer" data-social="إنستغرام" aria-label="إنستغرام"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.6" r=".8" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#site-footer" data-social="فيسبوك" aria-label="فيسبوك"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h2.8l.4-3.2H14V7.7c0-.9.3-1.5 1.6-1.5h1.7V3.3c-.3 0-1.3-.1-2.5-.1-2.6 0-4.3 1.6-4.3 4.5v2.1H7.7V13h2.8v8"/></svg></a>
+          <a href="#site-footer" data-social="واتساب" aria-label="واتساب"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z"/><path d="M9 8.5c.4 2.5 2.2 4.3 4.8 5.1l1.1-1.2 1.7.8c-.1 1.2-.8 1.9-2 2.1-3.6-.4-6.7-3.4-7.1-6.8.2-1.1.9-1.8 2-1.9l.8 1.6L9 8.5Z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col"><h3>روابط سريعة</h3><a href="menu.html">قائمة الطعام</a><a href="about.html">عن المطعم</a><a href="reservation.html">احجز طاولة</a><a href="cart.html">السلة</a><a href="my-account.html">حجوزاتي وطلباتي</a><a href="contact.html">تواصل معنا</a></div>
+      <div class="footer-col"><h3>أوقات المائدة</h3><p>كل يوم</p><p>١:٠٠ ظهرًا — ١:٠٠ بعد منتصف الليل</p><span class="footer-note">آخر استقبال للطلبات ١٢:١٥ صباحًا</span></div>
+      <div class="footer-col"><h3>زورونا</h3><p>القاهرة · الزمالك</p><p>hello@narwedahab.example</p><p>+20 2 5550 1928</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year>٢٠٢٦</span> نار ودهب. جميع الحقوق محفوظة.</span><span class="footer-motto"><i>✦</i> النار سرّ الحكاية</span><a href="#main-content">العودة للأعلى ↑</a></div>
+  </footer>
+  <div class="page-curtain" aria-hidden="true"></div>
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
